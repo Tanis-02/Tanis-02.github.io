@@ -1,0 +1,109 @@
+/* For all webpages */
+
+body {
+	background-color: #0B0C10;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: right;
+	border: 1px solid #66FCF1;
+	text-align: center;
+	background-color: #45A29E;
+	margin-right: 5px;
+}
+
+li a {
+	text-decoration: none;
+	padding: 10px 12px;
+	color: #1F2833;
+	font-family: courier new;
+}
+
+li a:hover {
+	color: #66FCF1;
+}
+
+/* Portfolio Page */
+
+h1 {
+	font-family: courier new;
+	color: #C5C6C7;
+	text-align: center;
+	font-size: 25px;
+	margin: 5%;
+}
+
+#work {
+	background-color: #232e3a;
+	margin: auto;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#work h2 {
+	padding-left: 8px;
+	padding-top: auto;
+	font-family: courier new;
+	color: #66FCF1;
+}
+
+.ex1, .ex2, .ex3 {
+	margin-left: 10%;
+	padding-bottom: 5%;
+	background-color: #45A29E;
+	width: 20%;
+	height: 75%;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 5%;
+}
+
+.ex1 h3, .ex2 h3, .ex3 h3 {
+	padding: 5px;
+	font-family: courier new;
+	color: #66FCF1;
+}
+
+.contact {
+	color: #45A29E;
+	text-align: center;
+}
+
+.ex1 p, .ex2 p, .ex3 p {
+	padding: 5px;
+	color: #232e3a;
+	font-family: courier new;
+	font-size: 13px;
+}
+
+div img {
+	width: 50px;
+	height: 50px;
+}
+
+a {
+	padding: 5px;
+	text-decoration: none;
+	color: #1f2833;
+}
+
+/* About Me */
+
+.about {
+	font-family: courier new;
+	font-size: 15px;
+	color: #66fcf1;
+}
+
+#profile {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 1%;
+}
