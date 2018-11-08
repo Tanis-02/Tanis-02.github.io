@@ -53,6 +53,15 @@ h1 {
 	color: #66FCF1;
 }
 
+#work img {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	overflow: hidden;
+	padding-left: 22px;
+	padding-right: 15px;
+}
+
 .ex1, .ex2, .ex3 {
 	margin-left: 10%;
 	padding-bottom: 5%;
@@ -87,10 +96,22 @@ div img {
 	height: 50px;
 }
 
-a {
+a:link {
 	padding: 5px;
-	text-decoration: none;
+	text-decoration: underline;
 	color: #1f2833;
+}
+
+a:visited {
+	padding: 5px;
+	text-decoration: underline;
+	color: #1f2833;
+}
+
+a:hover {
+	padding: 5px;
+	text-decoration: underline;
+	color: #66FCF1;
 }
 
 /* About Me */
@@ -107,3 +128,16 @@ a {
 	float: left;
 	padding: 1%;
 }
+
+.about a {
+	color: #45A29E;
+}
+
+.about a:hover {
+	color: #C5C6C7;
+}
+
+.about em {
+	text-decoration: underline;
+}
+
