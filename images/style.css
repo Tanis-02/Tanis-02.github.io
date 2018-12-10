@@ -1,0 +1,243 @@
+/*====================================================================================================================================*/
+/*=======================================================For all webpages ============================================================*/
+/*===================================================================================================================================*/
+
+body {
+	background-color: #0B0C10;
+}
+
+
+h1 {
+	font-family: "courier new";
+	color: #C5C6C7;
+	text-align: center;
+	font-size: 25px;
+	margin: 5%;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	display: inline;
+	float: right;
+	border: 1px solid #66FCF1;
+	text-align: center;
+	background-color: #45A29E;
+	margin-right: 5px;
+}
+
+.nav li a {
+	text-decoration: none;
+	padding: 10px 12px;
+	color: #1F2833;
+	font-family: "courier new";
+}
+
+.nav li a:hover {
+	color: #66FCF1;
+}
+
+/*============================================================================================================= 
+
+Index Page - make sure to add 3 new divs under the current 3 to add more project info
+
+================================================================================================================*/
+
+#work {
+	background-color: #232e3a;
+	margin: auto;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#work h2 {
+	padding-left: 8px;
+	padding-top: auto;
+	font-family: "courier new";
+	color: #66FCF1;
+}
+
+#work img {
+	width: 230px;
+	height: 230px;
+	display: inline-block;
+	overflow: hidden;
+	padding-left: 22px;
+	padding-right: 15px;
+}
+
+.ex1, .ex3 {
+	margin-left: 3%;
+	padding-bottom: 5%;
+	background-color: #45A29E;
+	width: 18%;
+	height: 75%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.ex2 {
+	margin-left: 3%;
+	padding-bottom: 5%;
+	background-color: #45A29E;
+	width: 30%;
+	height: 75%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.ex1 h3, .ex2 h3, .ex3 h3 {
+	padding: 5px;
+	font-family: "courier new";
+	color: #66FCF1;
+}
+
+.contact {
+	color: #45A29E;
+	text-align: center;
+}
+
+.ex1 p, .ex2 p, .ex3 p {
+	padding: 5px;
+	color: #232e3a;
+	font-family: "courier new";
+	font-size: 13px;
+}
+
+div img {
+	width: 50px;
+	height: 50px;
+}
+
+a:link {
+	padding: 5px;
+	text-decoration: underline;
+	color: #1f2833;
+}
+
+a:visited {
+	padding: 5px;
+	text-decoration: underline;
+	color: #1f2833;
+}
+
+a:hover {
+	padding: 5px;
+	text-decoration: underline;
+	color: #66FCF1;
+}
+
+/*===================================================================================================================================*/
+/*======================================================= About Me ==================================================================*/
+/*===================================================================================================================================*/
+
+.about {
+	font-family: "courier new";
+	font-size: 15px;
+	color: #66fcf1;
+}
+
+#profile {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 1%;
+}
+
+.about a {
+	color: #45A29E;
+}
+
+.about a:hover {
+	color: #C5C6C7;
+}
+
+.about em {
+	text-decoration: underline;
+}
+
+/*===============================================================================================================
+
+fun page - add caeser cipher to this page, maybe a JS or HTML5 game, make the page look prettier, looks pretty boring rn
+
+================================================================================================================*/
+
+.taxes1 {
+	background-color: #232e3a;
+	margin: auto;
+	padding: 10px;
+	width: 100%;
+	height: 25%;
+	overflow: hidden;
+	font-family: "courier new";
+	font-size: 15px;
+	color: #66fcf1;
+}
+.taxes1 p {
+	color: #66fcf1;
+	font-family: "courier new";
+	font-size: 20px;
+	padding: 10px;
+}
+
+video {
+	margin-left: 30%
+}
+
+#myCanvas {
+	border: 5px solid #000000;
+	background-color: #f2f2f2;
+}
+
+/*===================================================================================================================================*/
+/*======================================================== Education Page ===========================================================*/
+/*===================================================================================================================================*/
+
+ .edu {
+	background-color: #232e3a;
+	padding: 10px;
+ }
+
+ .edu h2 {
+	color: #66fcf1;
+	font-family: 'Courier New', Courier, monospace;
+ }
+
+ .edu p {
+	font-family: 'Courier New';
+	color: #66fcf1;
+ }
+
+/*===================================================================================================================================*/
+/*========================================================== Accessibility Page =====================================================*/
+/*===================================================================================================================================*/
+
+.access {
+  background-color: #232e3a;
+  font-family: 'Courier New';
+  color: #66fcf1;
+  padding: 10px;
+  margin-top: 25px;
+  width: 100%;
+  height: 20%;
+  float: left;
+}
+
+/*===================================================================================================================================*/
+/*========================================================== JavaScript Clock Page ==================================================*/
+/*===================================================================================================================================*/
+
+#myClock {
+	height: 100px;
+	width: 500px;
+	margin: 200px;
+	position: absolute;
+	padding: 70px;
+	font-family: "courier new";
+	text-align: center;
+	color: #66fcf1;
+	font-size:  200px;
+}
